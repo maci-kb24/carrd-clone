@@ -10,6 +10,8 @@ export type ButtonBlockData = {
   props: {
     label: string;
     href: string;
+    width?: number;
+    height?: number;
   };
 };
 
